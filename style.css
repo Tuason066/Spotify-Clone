@@ -15,6 +15,7 @@ header {
 nav {
   width: 100%;
   min-height: 100vh;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -100,5 +101,14 @@ nav {
     width: .1rem !important;
     margin: auto 0 auto !important;
   }
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+section:nth-child(even) {
+  background-color: grey;
 }
 /*# sourceMappingURL=style.css.map */
